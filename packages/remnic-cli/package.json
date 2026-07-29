@@ -36,22 +36,22 @@
     "@remnic/core": "workspace:^",
     "@remnic/plugin-pi": "workspace:^",
     "@remnic/server": "workspace:^",
-    "yaml": "^2.4.2"
+    "yaml": "^2.9.0"
   },
   "peerDependencies": {
     "@remnic/bench": "^9.34.0",
+    "@remnic/capture-audio": "^9.34.0",
+    "@remnic/connector-bee": "^9.34.0",
+    "@remnic/connector-limitless": "^9.34.0",
+    "@remnic/connector-omi": "^9.34.0",
     "@remnic/export-weclone": "^9.34.0",
-    "@remnic/import-weclone": "^9.34.0",
     "@remnic/import-chatgpt": "^9.34.0",
     "@remnic/import-claude": "^9.34.0",
     "@remnic/import-gemini": "^9.34.0",
     "@remnic/import-lossless-claw": "^9.34.0",
     "@remnic/import-mem0": "^9.34.0",
     "@remnic/import-supermemory": "^9.34.0",
-    "@remnic/connector-limitless": "^9.34.0",
-    "@remnic/connector-bee": "^9.34.0",
-    "@remnic/connector-omi": "^9.34.0",
-    "@remnic/capture-audio": "^9.34.0"
+    "@remnic/import-weclone": "^9.34.0"
   },
   "peerDependenciesMeta": {
     "@remnic/bench": {
@@ -96,19 +96,19 @@
   },
   "devDependencies": {
     "@remnic/bench": "workspace:*",
+    "@remnic/connector-bee": "workspace:*",
+    "@remnic/connector-limitless": "workspace:*",
+    "@remnic/connector-omi": "workspace:*",
     "@remnic/export-weclone": "workspace:*",
-    "@remnic/import-weclone": "workspace:*",
     "@remnic/import-chatgpt": "workspace:*",
     "@remnic/import-claude": "workspace:*",
     "@remnic/import-gemini": "workspace:*",
     "@remnic/import-lossless-claw": "workspace:*",
     "@remnic/import-mem0": "workspace:*",
     "@remnic/import-supermemory": "workspace:*",
+    "@remnic/import-weclone": "workspace:*",
     "tsup": "^8.5.1",
-    "typescript": "^5.9.3",
-    "@remnic/connector-limitless": "workspace:*",
-    "@remnic/connector-bee": "workspace:*",
-    "@remnic/connector-omi": "workspace:*"
+    "typescript": "^5.9.3"
   },
   "license": "MIT",
   "repository": {

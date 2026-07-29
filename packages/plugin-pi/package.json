@@ -51,7 +51,7 @@
   },
   "dependencies": {
     "@remnic/core": "workspace:^",
-    "@sinclair/typebox": "^0.34.0"
+    "@sinclair/typebox": "^0.34.52"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*"
@@ -63,7 +63,7 @@
   },
   "devDependencies": {
     "tsup": "^8.5.1",
-    "tsx": "^4.0.0",
+    "tsx": "^4.23.1",
     "typescript": "^5.9.3"
   },
   "license": "MIT",

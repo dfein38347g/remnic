@@ -43,12 +43,12 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.29.0",
+    "@modelcontextprotocol/sdk": "^1.30.0",
     "@remnic/coding-graph": "workspace:^",
     "@remnic/core": "workspace:^",
-    "hyparquet": "^1.25.7",
-    "yaml": "^2.4.2",
-    "zod": "^3.24.0"
+    "hyparquet": "^1.26.2",
+    "yaml": "^2.9.0",
+    "zod": "^3.25.76"
   },
   "devDependencies": {
     "tsup": "^8.5.1",

@@ -3042,20 +3042,20 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@honcho-ai/sdk": "^2.0.0",
+    "@honcho-ai/sdk": "^2.2.0",
     "@lancedb/lancedb": "^0.26.2",
     "@node-rs/argon2": "^2.0.2",
-    "@orama/orama": "^3.0.0",
-    "@orama/plugin-data-persistence": "^3.0.0",
-    "@sinclair/typebox": "^0.34.0",
+    "@orama/orama": "^3.1.18",
+    "@orama/plugin-data-persistence": "^3.1.18",
+    "@sinclair/typebox": "^0.34.52",
     "apache-arrow": "^18.1.0",
-    "better-sqlite3": "^12.6.2",
+    "better-sqlite3": "^12.11.1",
     "cross-spawn": "^7.0.6",
     "meilisearch": "^0.46.0",
-    "node-gyp": "^12.3.0",
-    "openai": "^6.0.0",
-    "undici": "^6.27.0",
-    "zod": "^3.24.0"
+    "node-gyp": "^12.4.0",
+    "openai": "^6.49.0",
+    "undici": "^6.28.0",
+    "zod": "^3.25.76"
   },
   "optionalDependencies": {
     "@lancedb/lancedb-darwin-arm64": "^0.26.2",
@@ -3066,7 +3066,7 @@
     "@types/better-sqlite3": "^7.6.13",
     "@types/cross-spawn": "^6.0.6",
     "tsup": "^8.5.1",
-    "tsx": "^4.21.0",
+    "tsx": "^4.23.1",
     "typescript": "^5.9.3"
   },
   "license": "MIT",
